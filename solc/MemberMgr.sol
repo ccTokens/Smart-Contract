@@ -10,7 +10,7 @@ import "CanReclaimToken.sol";
 /// @title MemberMgr - add, delete, suspend and resume merchant and it’s eth address; reset the custodian’s eth address.
 contract MemberMgr is Claimable, MemberMgrIf, CanReclaimToken {
     address public custodian;
-    enum MerchantStatus {STOPPED, VALID, REMOVED}
+    enum MerchantStatus {STOPPED, VALID}
     struct MerchantStatusData {
         MerchantStatus status;
         bool _exist;
@@ -44,15 +44,9 @@ contract MemberMgr is Claimable, MemberMgrIf, CanReclaimToken {
 
     function requireMerchant(address _who) override public view {
         MerchantStatusData memory merchantState = merchantStatus[_who];
-        if (!merchantState._exist) {
-            require(false, "not a merchant");
-            assert(false);
-        }
+        require (merchantState._exist, "not a merchant");
 
-        if (merchantState.status == MerchantStatus.STOPPED) {
-            require(false, "merchant has been stopped");
-            assert(false);
-        }
+        require (merchantState.status != MerchantStatus.STOPPED, "merchant has been stopped");
 
         require(merchantState.status == MerchantStatus.VALID, "merchant not valid");
     }

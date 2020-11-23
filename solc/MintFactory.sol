@@ -184,7 +184,7 @@ contract MintFactory is Ownable, MintFactoryIfView, CanReclaimToken {
     );
 
     function requestMint(
-    //        uint amount,
+        uint amount,
         string memory btcTxId
     )
     external
@@ -199,7 +199,7 @@ contract MintFactory is Ownable, MintFactoryIfView, CanReclaimToken {
 
         Request memory request = Request({
             requester : msg.sender,
-            amount : 0,
+            amount : amount,
             btcAddress : custodianBtcAddressForMerchant[msg.sender],
             btcTxId : btcTxId,
             seq : seq,
@@ -282,18 +282,18 @@ contract MintFactory is Ownable, MintFactoryIfView, CanReclaimToken {
         bytes32 requestHash
     );
 
-    function confirmMintRequest(bytes32 requestHash, uint amount) external onlyCustodian returns (bool) {
+    function confirmMintRequest(bytes32 requestHash) external onlyCustodian returns (bool) {
         uint blockNo = block.number;
         Request memory request = getPendingMintRequest(requestHash);
         require(blockNo > request.requestBlockNo, "confirmMintRequest failed");
 
         require(blockNo - 20 >= request.requestBlockNo, "confirmMintRequest failed, wait for 20 blocks");
         uint seq = request.seq;
-        require(controller.mint(request.requester, amount), "mint failed");
         mintRequests[seq].status = RequestStatus.APPROVED;
-        mintRequests[seq].amount = amount;
+        uint amount = mintRequests[seq].amount;
         mintRequests[seq].confirmedBlockNo = blockNo;
 
+        require(controller.mint(request.requester, amount), "mint failed");
         emit MintConfirmed(
             request.seq,
             request.requester,

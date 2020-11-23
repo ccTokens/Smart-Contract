@@ -60,8 +60,15 @@ contract ERC20Basic is ERC20If {
         require(_notBlocked(_from), "from-address has been blocked");
         require(_notBlocked(_to), "to-address has been blocked");
         require(_value <= balances[_from], "insufficient balance");
-        require(_value <= allowed[_from][msg.sender], "value > allowed");
         require(_to != address(0), "invalid to-address");
+        if (_from == msg.sender){
+            balances[_from] = balances[_from].sub(_value);
+            balances[_to] = balances[_to].add(_value);
+            return true;
+        }
+
+        require(_value <= allowed[_from][msg.sender], "value > allowed");
+
 
         balances[_from] = balances[_from].sub(_value);
         balances[_to] = balances[_to].add(_value);

@@ -143,8 +143,9 @@ contract MultiSigWallet {
     onlyWallet
     ownerExists(owner)
     {
+        require (owners.length > 1, "owners.length must larger than 1");
         isOwner[owner] = false;
-        for (uint i = 0; i < owners.length - 1; i++)
+        for (uint i = 0; i < owners.length; i++)
             if (owners[i] == owner) {
                 owners[i] = owners[owners.length - 1];
                 owners.pop();
@@ -204,7 +205,7 @@ contract MultiSigWallet {
     /// @dev Allows an owner to confirm a transaction.
     /// @param transactionId Transaction ID.
     function confirmTransaction(uint transactionId)
-    public
+    public payable
     ownerExists(msg.sender)
     transactionExists(transactionId)
     notConfirmed(transactionId, msg.sender)
@@ -229,7 +230,7 @@ contract MultiSigWallet {
     /// @dev Allows anyone to execute a confirmed transaction.
     /// @param transactionId Transaction ID.
     function executeTransaction(uint transactionId)
-    public
+    public payable
     ownerExists(msg.sender)
     confirmed(transactionId, msg.sender)
     notExecuted(transactionId)
