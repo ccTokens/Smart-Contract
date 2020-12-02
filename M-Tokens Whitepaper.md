@@ -106,5 +106,5 @@ M-Tokens adopts ERC20 standard contracts on the Ethereum mainnet chain currently
 
 a)After the Ethereum 2.0 ERC20 sharding has become stable, the minting contract will be transferred to the ERC20 sharding. Meanwhile, the newly minted tokens will circulate in the Ethereum 2.0 network, and existing tokens in the Ethereum1.0 network. Therefore, M-Tokens transactions would be carried out in Ethereum 1.0/2.0 in parallel for a period of time.  
 
-b)When Ethereum 2.0 has become completely stable and the switching conditions are met, all the M-Tokens smart contracts and its functions will be migrated to Ethereum 2.0 sharding. The transferred M-Tokens will offer lower rates and faster speed, and are capable of better data maintenance. 
+b)When Ethereum 2.0 has become completely stable and the switching conditions are met, all the M-Tokens smart contracts and its functions will be migrated to Ethereum 2.0 sharding. The transferred M-Tokens will offer lower fees and faster speed, and are capable of better data maintenance. 
 
