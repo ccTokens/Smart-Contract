@@ -9,7 +9,7 @@ Initial setup
 The merchants are official only upon the governance members’ m-of-n multi-signature confirmation. They may provide their ETH address to the governance offline, allowing the governance members to put their address into the contract.
 Adopting the MemberMgr contract, the custodian inputs the BTC deposit address when merchants go live. Merchants may locate the address through “custodianBtcAddressForMerchant”.
 
-As per the offline agreement, the custodian arranges the minting and burning service rates for merchants based on the BTC deposited. The custodian and merchant may clearly state in the agreement the minimum deposit amount, failing to comply which may result in the custodian’s rejection to mint, with the BTC deposited handled as per the terms and conditions.
+As per the offline agreement, the custodian arranges the minting and burning service fee for merchants based on the BTC deposited. The custodian and merchant may clearly state in the agreement the minimum deposit amount, failing to comply which may result in the custodian’s rejection to mint, with the BTC deposited handled as per the terms and conditions.
 
 Minting
 ---
