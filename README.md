@@ -1,5 +1,6 @@
-# M-Tokens Whitepaper
+M-Tokens Whitepaper
 ===
+
 Abstract
 ---
 M-Tokens are ERC20 that project blockchain assets such as BTC in Ethereum on a 1:1 basis. It enables seamless integration of each crypto asset into the Ethereum ecosystem. All M-Tokens reserves are safeguarded by qualified third-party custodians. Meanwhile, a multi-signature mechanism is adopted for its crucial aspects such as mining and burning, allowing on-the-chain verification. Therefore, it provides cross-chain asset services that are both transparent and reliable. Its blacklist mechanism, at the same time, maximizes security and its applications.
