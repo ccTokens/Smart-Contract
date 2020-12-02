@@ -20,7 +20,7 @@ Technically, smart contacts, HashMap are adopted, while reserve addresses, balan
 
 Governance
 ---
-1)Role segregation
+1) Role segregation
 Major parties taking part in M-Tokens include the governing bodies, custodians, merchants, and users.
 Governing bodies: 
 a)	Are responsible for the management and optimization of smart contracts
@@ -41,7 +41,7 @@ c)	Complete the KYC/AML of the end-user
 Users: 
 Individuals or institutions intending to participate in Ethereum-related projects through M-Tokens. The exchange between the users’ original crypto assets and M-Tokens must be carried out by the merchants while abiding by their KYC/AML policies.
 
-2)Multi-signature in governance
+2) Multi-signature in governance
 The key processes are governed by the m-of-n multi-signature. Any relevant proposals will come into effect only after all governing members have approved adopting the m-of-n multi-signature (m being an odd number, while n is greater than m/2).
 
 3) Minting and burning are to be completed by the custodian or merchant 
