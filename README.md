@@ -1,7 +1,7 @@
 Address list and audit report
 ===
 
-Multi-signature walle
+Multi-signature wallet
 ---
 Address:
 
