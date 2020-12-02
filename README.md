@@ -8,23 +8,29 @@ M-Tokens are ERC20 that project blockchain assets such as BTC in Ethereum on a 1
 Background
 ---
 The speedy development of dapp/dex/defi, etc. has prompted the prosperity of the Ethereum ecosystem, attracting diverse kinds of digital asset holders to invest their assets into relevant projects, and hopefully in a seamless manner. As Ethereum 2.0 develops, it shall provide a larger amount of application scenarios, along with higher demand in its interoperability across multiple chains.
-1)Since the atomic swap of crypto assets among different chains is not quite convenient at the moment, the majority of digital asset holders would have no choice but to trade their currencies into ETH or USDT, etc., resulting in transaction fees and impacting the price stability, which would amplify the risks during market fluctuations.  
-2)Positions vary among different blockchain. For instance, BTC is positioned to store value the way digital gold is. Meanwhile, XRP is positioned as a cross-boundary payment system. Multiple-chain currency shall sustain for quite a period of time, therefore. Furthermore, more cross-chain assets shall flow into Ethereum because of its positioning of being a global, permissionless platform for decentralized applications . 
-It can be observed that a platform capable of transferring blockchain digital assets into the Ethereum in a speedy, convenient, and secure manner will definitely become the essential infrastructure. Although Wrapped Token and similar projects have fulfilled the aforementioned requirements, there is still room for improvement. As traditional financial institutions accept digital assets, potential risks arise when only a single provider or custodian is adopted should market value reach a certain level. In the long run, therefore, various platforms shall coexist, enabling the complementation of each infrastructure. 
+    1)Since the atomic swap of crypto assets among different chains is not quite convenient at the moment, the majority of digital asset holders would have no choice but to trade their currencies into ETH or USDT, etc., resulting in transaction fees and impacting the price stability, which would amplify the risks during market fluctuations.  
+    2)Positions vary among different blockchain. For instance, BTC is positioned to store value the way digital gold is. Meanwhile, XRP is positioned as a cross-boundary payment system. Multiple-chain currency shall sustain for quite a period of time, therefore. Furthermore, more cross-chain assets shall flow into Ethereum because of its positioning of being a global, permissionless platform for decentralized applications . 
+    It can be observed that a platform capable of transferring blockchain digital assets into the Ethereum in a speedy, convenient, and secure manner will definitely become the essential infrastructure. Although Wrapped Token and similar projects have fulfilled the aforementioned requirements, there is still room for improvement. As traditional financial institutions accept digital assets, potential risks arise when only a single provider or custodian is adopted should market value reach a certain level. In the long run, therefore, various platforms shall coexist, enabling the complementation of each infrastructure. 
+
 M-Tokens strives to be one of the infrastructures mentioned above, with the aim to provide digital asset holders with alternatives and security for financial businesses. 
 
 M-Tokens
 ---
 M-Tokens solution ensures that all tokens are backed by a complete reserve of crypto assets, preventing misappropriations and losses. 
+
 Technically, smart contacts, HashMap are adopted, while reserve addresses, balances, and trade records are made traceable to enable cross-chain mapping. In terms of governance, checks and balances are achieved through a multi-institutional framework, rights segregation, and decentralisation, which facilitate the prevention of malice committed by individuals. Moreover, the blacklist mechanism lays a foundation for compliance.
 
 Governance
 ---
 1)Role segregation
 Major parties taking part in M-Tokens include the governing bodies, custodians, merchants, and users.
+
 Governing bodies: 
+
 a)Are responsible for the management and optimization of smart contracts
+
 b)Are responsible for the handling of the entry and exit of custodians and merchants
+
 c)Are responsible for the addition, removal, and elimination of M-Tokens existing on the blacklist. The governing bodies are constructed by multiple independent institutions/individuals
 
 Custodians: 
