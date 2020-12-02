@@ -25,7 +25,7 @@ Custodian’s name and the corresponding ETH address
 ---
 Cactus Custody         address:
 
-Merchants and the corresponding ETH address
+Merchants' name and the corresponding ETH address
 ---
 Matrixport            address:
 
