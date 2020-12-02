@@ -23,11 +23,13 @@ Address:
 
 Custodian’s name and the corresponding ETH address
 ---
-Cactus Custody         address:
+Cactus Custody         
+address:
 
 Merchants' name and the corresponding ETH address
 ---
-Matrixport            address:
+Matrixport            
+address:
 
 Audit report
 ---
