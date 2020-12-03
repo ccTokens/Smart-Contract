@@ -1,4 +1,4 @@
-Address list and audit report
+Address List and Audit Report
 ===
 
 Multi-signature wallet
