@@ -1,29 +1,29 @@
 M-Tokens Whitepaper
 ===
 
-Abstract
+1 Abstract
 ---
 M-Tokens are ERC20 that project blockchain assets such as BTC on Ethereum on a 1:1 basis. It enables seamless integration of various crypto assets into the Ethereum ecosystem. All M-Tokens reserves are safeguarded by qualified third-party custodians. Meanwhile, a multi-signature mechanism is adopted for its crucial aspects such as mining and burning, allowing on-the-chain verification. Therefore, it provides cross-chain asset services that are both transparent and reliable. 
 
-Background
+2 Background
 ---
 The speedy development of dapp/dex/defi, etc. has prompted the prosperity of the Ethereum ecosystem, attracting diverse types of digital asset holders to invest their assets into relevant projects, and hopefully in a seamless manner. As Ethereum 2.0 develops, it shall provide greater applications, along with higher demand in its interoperability across multiple chains.
 
-1) Since the atomic swap of crypto assets among different chains is not quite convenient at the moment, the majority of digital asset holders would have no choice but to trade their currencies into ETH or USDT, etc., resulting in high transaction fees and impacting the price stability, which means amplified risks during large market fluctuations.  
+1）Since the atomic swap of crypto assets among different chains is not quite convenient at the moment, the majority of digital asset holders would have no choice but to trade their currencies into ETH or USDT, etc., resulting in high transaction fees and impacting the price stability, which means amplified risks during large market fluctuations.  
 
-2) Different blockchain have different value propositions. For instance, Bitcoin is positioned to be a store of value like “Digital Gold”.  Ripple is positioned as a cross-border payment system. Ethereum is positioned as an operating system for decentralized economy and applications. Multiple chains and tokens will co-exist. However, with Ethereum gaining its market share and mindshare to be a global, permissionless platform for decentralized applications, it won’t be surprising that more and more cross-chain assets shall flow into the Ethereum network. 
+2）Different blockchain have different value propositions. For instance, Bitcoin is positioned to be a store of value like “Digital Gold”.  Ripple is positioned as a cross-border payment system. Ethereum is positioned as an operating system for decentralized economy and applications. Multiple chains and tokens will co-exist. However, with Ethereum gaining its market share and mindshare to be a global, permissionless platform for decentralized applications, it won’t be surprising that more and more cross-chain assets shall flow into the Ethereum network. 
 
 Therefore, a platform capable of bringing blockchain digital assets into the Ethereum in a speedy, convenient, and secure manner will definitely become an essential infrastructure. Although Wrapped Token and similar projects have met the aforementioned requirements, there is still room for improvement. As the assets under management of such wrapped assets increase, potential risks arise for a single provider or custodian. In the long run, therefore, various platforms shall coexist, providing more wrapped asset varieties and choices to the institutional and retail users. 
 
 M-Tokens strives to be one of the infrastructures, with the aim to provide digital asset holders with alternatives and security for financial businesses. 
 
-M-Tokens
+3 M-Tokens
 ---
 M-Tokens are backed by a 1:1 crypto assets reserve of the original token, preventing misappropriations or losses. 
 
 In terms of technical aspects, smart contact and hash mapping  are adopted, while the reserve deposit addresses, outstanding balances, and transaction records are made 100% public and traceable to enable exact cross-chain mapping. In terms of governance, checks and balances are achieved through a multi-institutional framework, roles/rights segregation, and decentralization, which facilitates the prevention of malice committed by any individual or entity. Moreover, the blacklisting mechanism lays a foundation for ongoing governance and regulatory compliance.
 
-Governance
+4 Governance
 ---
 1）Segregation of Roles
 
@@ -38,7 +38,7 @@ b)	Are responsible for handling the entries and exits of custodians and merchant
 c)	Are responsible for the addition, removal, and elimination of M-Tokens from the blacklisted addresses. The governing bodies are constructed by multiple independent institutions/individuals in the crypto community.
 
 Custodians: 
----
+
 a)	Are responsible for maintaining the secure reserve for M-Tokens, which must be multi-signed with each private key stored separately and remotely.
 
 b)	Are responsible for the distribution, maintenance, and publishing of merchants’ reserve addresses.
@@ -48,7 +48,7 @@ c)	Are responsible for the approval or rejection of merchants’ minting request
 d)	Are responsible for the freezing up of the reserve for the blacklisted M-Tokens and the required execution according to the applicable laws, regulations or the resolution of the community.
 
 Merchants: 
----
+
 a)	Are responsible for initiating minting or burning requests.
 
 b)	Are responsible for maintaining the blockchain address(es) for receiving the transferred reserves (original tokens) when M-Tokens get burned.
@@ -56,7 +56,7 @@ b)	Are responsible for maintaining the blockchain address(es) for receiving the 
 c)	Are responsible for the KYC & AML of the end users.
 
 End Users: 
----
+
 Individuals or institutions intend to participate in Ethereum-related projects through M-Tokens. The exchange between the end users’ original crypto assets and M-Tokens must be carried out by the merchants and is abided by the merchants’ KYC & AML policies.
 
 2) Multi-signature in governance
@@ -79,11 +79,11 @@ When an end user/merchant believes that an address is involved in activities vio
 
 M-Tokens on the blacklisted addresses cannot be transferred out or be burned, and no new deposit is allowed into the blacklisted addresses either. At the same time, the custodian will freeze the corresponding reserve until further resolution is made by the governing bodies and the blacklisted M-Tokens will be destroyed. If a blacklisted address is later found to be innocent, it may be removed from the list upon approval (through multi-sig) by the governing bodies. 
 
-Custodian
+5 Custodian
 ---
 The custodian manages the private keys of the reserve in industry highest grade of security hardwares and through a multi-signature mechanism.  The custodian should also guarantee the highest level of business continuity through system heterogeneity, multi-location set-up and a remote disaster recovery mechanism.  Sufficient segregation of duties, rights management and zero-trust system design needs to be in place to ensure safety and the availability of the reserve without dependency on any single or few individuals. 
 
-The value proposition of M-Tokens
+6 The value proposition of M-Tokens
 ---
 1) To enable the end user to invest his assets into Ethereum projects in a convenient, speedy and cost-effective manner, asset conversion won’t be necessary and there will be no impact on the market price due to trading activity.
 
@@ -91,7 +91,7 @@ The value proposition of M-Tokens
 
 3) Increase the utility of the original assets by adding a new means of yield generation through Defi participation. 
 
-Future development
+7 Future development
 ---
 1) Adoption
 
