@@ -59,19 +59,19 @@ End Users:
 
 Individuals or institutions intend to participate in Ethereum-related projects through M-Tokens. The exchange between the end users’ original crypto assets and M-Tokens must be carried out by the merchants and is abided by the merchants’ KYC & AML policies.
 
-2) Multi-signature in governance
+2）Multi-signature in governance
 
 The key processes are governed by the m-of-n multi-signature. Any relevant proposals will come into effect only after governing members have gone through the m-of-n multi-signature (m being an odd number, while n is greater than m/2) approval procedure.
 
-3) Minting and burning are carried out by the custodian and the merchant 
+3）Minting and burning are carried out by the custodian and the merchant 
 
 Minting and burning of M-Tokens are done upon signing by both the merchant and the custodian. With the merchant acting as the initiator and the custodian acting as the approver. A complete M-Tokens minting/burning record will be comprised of each respective party’s smart contract execution record.
 
-3) Fully Transparent and Verifiable reserves
+4) Fully Transparent and Verifiable reserves
 
 The minting of M-Tokens is backed with a full reserve of the original token, information of which would be published instantaneously by a third-party custodian — responsible for distributing and maintaining the reserve addresses as well as writing the reserve addresses into the smart contract. All reserve addresses will be published to the public on the M-Tokens website. The reserve address is only modifiable upon seeking n/m approvals among the governing bodies. Meanwhile, the custodian is required to disclose the reserve balance in real-time and provide an audited record on a regular basis.
 
-4）Blacklisting mechanism 
+5）Blacklisting mechanism 
 
 The blacklisting mechanism is implemented to meet the regulatory requirements. 
 
@@ -85,19 +85,19 @@ The custodian manages the private keys of the reserve in industry highest grade 
 
 6 The value proposition of M-Tokens
 ---
-1) To enable the end user to invest his assets into Ethereum projects in a convenient, speedy and cost-effective manner, asset conversion won’t be necessary and there will be no impact on the market price due to trading activity.
+1）To enable the end user to invest his assets into Ethereum projects in a convenient, speedy and cost-effective manner, asset conversion won’t be necessary and there will be no impact on the market price due to trading activity.
 
-2) Provides liquidity into Decentralized applications, accelerating the development of the Ethereum ecosystem.
+2）Provides liquidity into Decentralized applications, accelerating the development of the Ethereum ecosystem.
 
-3) Increase the utility of the original assets by adding a new means of yield generation through Defi participation. 
+3）Increase the utility of the original assets by adding a new means of yield generation through Defi participation. 
 
 7 Future development
 ---
-1) Adoption
+1）Adoption
 
 Currently, M-Tokens are solely for transfering value across native blockchains assets. However, as blockchain adoption becomes prevalent and is adopted in more financial services, M-Tokens solution could allow tokenization of various off-chain assets such as precious metals, intangible assets and securities etc. given proper regulation in place. In such scenarios, traditional banks, community warehouses, brokerages could also act as custodian.
 
-2) Network upgrading
+2）Network upgrading
 
 M-Tokens adopt the ERC20 token standard on the Ethereum mainnet currently. The governing bodies would observe the Ethereum 2.0 upgrade and will migrate the smart contracts on Ethereum 2.0 when it becomes available. The migration is expected to be completed in 2 stages: 
 
