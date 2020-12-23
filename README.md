@@ -23,7 +23,7 @@ Address:
 
 Custodian’s name and the corresponding ETH address
 ---
-Cactus Custody (https://www.mycactus.com)         
+[Cactus Custody](https://www.mycactus.com)         
 address:
 
 Merchants' name and the corresponding ETH address
