@@ -7,7 +7,7 @@ The following workflow takes MBTC as an example, while other mtoken flow remains
 Initial setup
 ---
 The merchants are official only upon the governance members’ m-of-n multi-signature confirmation. They may provide their ETH address to the governance offline, allowing the governance members to put their address into the contract.
-Adopting the MemberMgr contract, the custodian inputs the BTC deposit address when merchants go live. Merchants may locate the address through “custodianBtcAddressForMerchant”.
+Adopting the MemberMgr contract, the custodian inputs the BTC deposit address before merchants go live. Merchants may locate the address through “custodianBtcAddressForMerchant”.Adopting the MintFactory contract, the merchant inputs the BTC address which is used to receive BTC from custodian when burning.
 
 As per the offline agreement, the custodian arranges the minting and burning service fee for merchants based on the BTC deposited. The custodian and merchant may clearly state in the agreement the minimum deposit amount, failing to comply which may result in the custodian’s rejection to mint, with the BTC deposited handled as per the terms and conditions.
 
