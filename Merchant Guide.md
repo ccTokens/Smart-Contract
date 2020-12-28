@@ -6,9 +6,9 @@ The following workflow takes MBTC as an example, while other M-Tokens flow remai
 
 Initial Setup
 ---
- The merchants are official only upon the governance members’ m-of-n multi-signature confirmation. They provide their ETH address to the governance offline, allowing the governance members to put their ETH address into the contract through MemberMgr contract.
+ The merchants are official only upon the governance members’ m-of-n multi-signature confirmation. They provide their ETH address to the governance offline, allowing the governance members to put their ETH address into the contract through `MemberMgr` contract.
  
-Adopting MemberMgr contract, the custodian inputs the BTC address which is used to receive BTC from merchants before merchants go live, and then send it to merchants offline. Merchants may get the address through function custodianBtcAddressForMerchant in MintFactory contract.
+Adopting MemberMgr contract, the custodian inputs the BTC address which is used to receive BTC from merchants before merchants go live, and then send it to merchants offline. Merchants may get the address through function custodianBtcAddressForMerchant in `MintFactory` contract.
 
 Merchants should set their BTC address which is used in burning to receive BTC from custodian through function setMerchantBtcDepositAddress in MintFactory contract.
 
