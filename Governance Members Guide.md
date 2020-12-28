@@ -16,6 +16,6 @@ Deactivate and Reactivate Merchant
 ---
 Merchants are allowed to be deactivated and reactivated. The governance calls stopMerchant and rsumeMerchant to deactivate and reactivate the merchants respectively. 
 
-Add, Remove, Destroy Blacklist
+Blacklist Management
 ---
 The governance calls Block to add M-Tokens address(es) into the blacklist, notBlocked to remove them from the list, and BurnBlocked to destroy the M-Tokens within the blacklist.
