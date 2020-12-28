@@ -1,25 +1,25 @@
-Address List and Audit Report
+Addresses and Audit Report
 ===
 
 Multi-signature wallet
 ---
-Address:
 
-M-Tokens contract 
----
-Address:
 
-Controller contract
+M-Tokens address 
 ---
-Address:
 
-MintFactory multi-signature wallet
----
-Address:
 
-MemberMgr’s contract
+Controller address
 ---
-Address:
+
+
+MintFactory address
+---
+
+
+MemberMgr address
+---
+
 
 Custodian’s name and the corresponding ETH address
 ---
@@ -28,7 +28,7 @@ address:
 
 Merchants' name and the corresponding ETH address
 ---
-Matrixport            
+Matrixport(https://www.matrixport.com)            
 address:
 
 Audit report
