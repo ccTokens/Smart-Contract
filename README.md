@@ -28,9 +28,9 @@ address:
 
 Merchants' name and the corresponding ETH address
 ---
-Matrixport(https://www.matrixport.com)            
+[Matrixport](https://www.matrixport.com)            
 address:
 
 Audit report
 ---
-M-Tokens smart contract codes have been audited by a third-party, and available here(https://XXXXX).
+M-Tokens smart contract codes have been audited by a third-party, and available [here](https://XXXXX).
