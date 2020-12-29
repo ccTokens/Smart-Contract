@@ -27,7 +27,7 @@ The custodian calls `confirmMintRequest` to confirm minting upon confirming the 
 Should the custodian locate issues in the merchant’s minting request (for example, not meeting the minimum minting amount stated in the offline agreement), a minting request may be rejected through function `rejectMintRequest`. Upon rejection, the custodian will process the BTC deposited--to return or keep-- as per the agreement. It is suggested that all the processing should be carried out upon the governance members’ approval voting.
     
 ## Burn
-Merchant calls `burn` to make a burn request. Before calling `burn`, the merchant must first approve the MintFactory to transfer the MBTC. The amount of approval is the amount to be burnt. 
+Merchant calls `burn` to make a burn request. Before calling `burn`, the merchant must first approve the `MintFactory` to transfer the MBTC. The amount of approval is the amount to be burnt. 
 
 **NOTE:** btcTxId is blank and to be filled up upon the custodian’s burning confirmation
 
