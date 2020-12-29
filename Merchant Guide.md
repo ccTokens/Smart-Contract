@@ -29,7 +29,7 @@ Should the custodian locate issues in the merchant’s minting request (for exam
 ## Burn
 Merchant calls `burn` to make a burn request. Before calling `burn`, the merchant must first approve the `MintFactory` to transfer the MBTC. The amount of approval is the amount to be burned. 
 
-**NOTE:** btcTxId is blank and to be filled up upon the custodian’s burning confirmation
+**NOTE:** btcTxId is blank and to be filled up upon the custodian’s burn confirmation
 
 ## Burn Confirmation
 Upon the custodian confirming the transaction of `burn` meeting the minimum number of confirmations, the BTC will be transferred to address the merchant provided during the initial stage. Transfer amount = Burning amount - Burning fee. Then, the custodian calls `confirmBurnRequest` to finish the burning. 
