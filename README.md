@@ -3,7 +3,7 @@
 ## Governance Member Address
 [0xd78d042a7e46d5F31b73cFd27d4f8570BD1D8013](https://cn.etherscan.com/address/0xd78d042a7e46d5F31b73cFd27d4f8570BD1D8013)
 
-## Smart Contract 
+## Smart Contracts 
 
 **MBTC:** [0xcfc013b416be0bd4b3bede35659423b796f8dcf0](https://etherscan.io/address/0xcfc013b416be0bd4b3bede35659423b796f8dcf0#code)
 
