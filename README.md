@@ -1,6 +1,6 @@
 # Addresses and Audit Report
 
-## Governance Member wallet
+## Governance Member Address
 [0xd78d042a7e46d5F31b73cFd27d4f8570BD1D8013](https://cn.etherscan.com/address/0xd78d042a7e46d5F31b73cFd27d4f8570BD1D8013)
 
 ## Smart Contract 
@@ -13,13 +13,13 @@
 
 **MemberMgr:** [0xd922698f9B4fe36370E6d28f0C4783A308b40B44](https://etherscan.io/address/0xd922698f9b4fe36370e6d28f0c4783a308b40b44)
 
-## Custodian’s name and the corresponding ETH address
+## Custodian’s Name and the Corresponding ETH Address
 [Cactus Custody](https://www.mycactus.com)         
 address:
 
-## Merchants' name and the corresponding ETH address
+## Merchants' Name and the Corresponding ETH Address
 [Matrixport](https://www.matrixport.com)            
 address:
 
-## Audit report
+## Audit Report
 M-Tokens smart contract codes have been audited by a third-party, and available [here](https://XXXXX).
