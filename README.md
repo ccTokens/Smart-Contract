@@ -13,11 +13,11 @@
 
 **MemberMgr:** [0xd922698f9B4fe36370E6d28f0C4783A308b40B44](https://etherscan.io/address/0xd922698f9b4fe36370e6d28f0c4783a308b40b44)
 
-## Custodian’s Name and the Corresponding ETH Address
+## Custodian and the Corresponding ETH Address
 [Cactus Custody](https://www.mycactus.com)         
 address:
 
-## Merchants' Name and the Corresponding ETH Address
+## Merchants and the Corresponding ETH Address
 [Matrixport](https://www.matrixport.com)            
 address:
 
