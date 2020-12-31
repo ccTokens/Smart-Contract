@@ -75,8 +75,8 @@ M-Tokens adopt the ERC20 token standard on the Ethereum mainnet currently. The g
 * When Ethereum 2.0 has become completely stable and the switching conditions are met, all the M-Tokens smart contracts and its functions will be fully migrated to Ethereum 2.0. The transferred M-Tokes will enjoy lower transaction fees and faster transfer speed, and better data maintenance. 
 
 ## References
-1. [https://www.stellar.org/](https://www.stellar.org/)
-2. [https://ethereum.org/en/](https://ethereum.org/en/)
-3. [https://wbtc.network/](https://wbtc.network/)
-4. [https://ethereum.org/en/eth2/](https://ethereum.org/en/eth2/)
+1. [1]-[https://www.stellar.org/](https://www.stellar.org/)
+2. [2]-[https://ethereum.org/en/](https://ethereum.org/en/)
+3. [3]-[https://wbtc.network/](https://wbtc.network/)
+4. [4]-[https://ethereum.org/en/eth2/](https://ethereum.org/en/eth2/)
 
