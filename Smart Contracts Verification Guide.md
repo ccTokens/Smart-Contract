@@ -14,8 +14,10 @@ It can be confirmed that the two are of the same version upon taking the steps a
  
 STEP 2: Verify that the on-chain contracts are consistent with the smart contract codes on the GitHub repository
 ---
-It can be done through etherscan.io:
+M-Tokens on-chain contract codes can be obtained through etherscan.io from the following webpages.
+* **MBTC:** [https://etherscan.io/address/0xcfc013b416be0bd4b3bede35659423b796f8dcf0#code](https://etherscan.io/address/0xcfc013b416be0bd4b3bede35659423b796f8dcf0#code) 
+* **MTokenController:** [https://etherscan.io/address/0x73dc27c71ecf110cb8f7bc12610499f3611e5d72#code](https://etherscan.io/address/0x73dc27c71ecf110cb8f7bc12610499f3611e5d72#code)
+* **MintFactory:** [https://etherscan.io/address/0x4bb471fd0aea88751fbef07dc414cf4e1d0cd673#code](https://etherscan.io/address/0x4bb471fd0aea88751fbef07dc414cf4e1d0cd673#code)
+* **MemberMgr:** [https://etherscan.io/address/0xd922698f9b4fe36370e6d28f0c4783a308b40b44#code](https://etherscan.io/address/0xd922698f9b4fe36370e6d28f0c4783a308b40b44#code)
 
-AAA.sol on-chain contract code address: https://etherscan.io/address/0xffffffff#code. The corresponding contract code within the GitHub repository:https://GitHub.com/mtokens (to be provided) 
-
-BBB.sol on-chain contract address: https://etherscan.io/address/0xffffffff#code. The corresponding contract code within the GitHub repository:https://GitHub.com/mtokens (to be provided) 
+The corresponding contract codes within the GitHub repository can be obtained from [https://github.com/mtokens/Smart-Contract/tree/main/solc](https://github.com/mtokens/Smart-Contract/tree/main/solc)
