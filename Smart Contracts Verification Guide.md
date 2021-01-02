@@ -6,7 +6,7 @@ To verify that on-chain M-Tokens are consistent with the smart contracts audited
  
 STEP 1: Verify that the smart contract codes on the GitHub code repository are of the same version as the codes audited
 ---
-M-Tokens smart contract GitHub repository: https://GitHub.com/mtokens. Commit ID is `5c490c2`. 
+URL of M-Tokens smart contract GitHub repository is https://GitHub.com/mtokens. Commit ID is `5c490c2`. 
 
 The subject audited in the [PeckShield Audit Report](https://www.mtokens.network/PeckShield-Audit-Report-M-Tokens.pdf) also targets commit ID `5c490c2`.
 
