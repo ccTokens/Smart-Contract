@@ -13,7 +13,7 @@ Merchants should set their BTC address which is used in burning to receive BTC f
 As per the offline agreement, the custodian arranges the minting and burning service fee for merchants based on the BTC deposited. The custodian and merchant may clearly state in the agreement the minimum deposit amount, failing to comply which may result in the custodian’s rejection to mint, with the BTC deposited handled as per the terms and conditions.
 
 ## Mint
-The merchant should transfer the BTC to the custodian’s deposit address before minting, then make a minting request through function `requestMint`, with the transaction ID of BTC transferred and the amount of MBTC to be minted. Minting amount = Deposit amount - Minting fee. The MBTC will be minted on the ETH address of merchant.
+The merchant should transfer the BTC to the custodian’s deposit address before minting, then make a minting request through function `requestMint`, with the transaction ID of BTC transferred and the amount of MBTC to be minted. Minting amount = Deposit amount - Minting fee. The MBTC will be minted on the ETH address of the merchant.
 
 **NOTE:** The deposit address for btcTxId transferred must be the address provided by the custodian.
 
