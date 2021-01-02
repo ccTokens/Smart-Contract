@@ -15,7 +15,7 @@
 
 ## Custodian and the Corresponding ETH Address
 [Cactus Custody](https://www.mycactus.com)         
-address:
+address: [0x691f0e12ad868666fa072616c49289467e4be272](https://etherscan.io/address/0x691f0e12ad868666fa072616c49289467e4be272)
 
 ## Merchants and the Corresponding ETH Address
 [Matrixport](https://www.matrixport.com)            
