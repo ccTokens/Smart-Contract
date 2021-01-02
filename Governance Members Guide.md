@@ -9,7 +9,7 @@ The governance calls `setCustodian` to add custodians, with the custodian’s ET
 The governance calls `addMerchant` to add merchants, with the merchant’s ETH address.
 
 ## Deactivate and Reactivate Merchant
-Merchants are allowed to be deactivated and reactivated. The governance calls `stopMerchant` and `rsumeMerchant` to deactivate and reactivate the merchants respectively. 
+Merchants are allowed to be deactivated and reactivated. The governance calls `stopMerchant` and `resumeMerchant` to deactivate and reactivate the merchants respectively. 
 
 ## Blacklist Management
-The governance calls `Block` to add M-Tokens address(es) into the blacklist, `notBlocked` to remove them from the list, and `BurnBlocked` to destroy the M-Tokens within the blacklist.
+The governance calls `_block(_who, true)` to add M-Tokens address(es) into the blacklist, `_block(_who, false)` to remove them from the list, and `burnBlocked` to destroy the M-Tokens within the blacklist.
