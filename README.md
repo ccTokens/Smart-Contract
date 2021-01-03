@@ -15,11 +15,11 @@
 
 ## Custodian and the Corresponding ETH Address
 [Cactus Custody](https://www.mycactus.com)         
-address: [0x691f0e12ad868666fa072616c49289467e4be272](https://etherscan.io/address/0x691f0e12ad868666fa072616c49289467e4be272)
+Address: [0x691f0e12ad868666fa072616c49289467e4be272](https://etherscan.io/address/0x691f0e12ad868666fa072616c49289467e4be272)
 
 ## Merchants and the Corresponding ETH Address
 [Matrixport](https://www.matrixport.com)            
-address:
+Address: To be added.
 
 ## Audit Report
 M-Tokens smart contract codes have been audited by a third-party, and available [here](https://www.mtokens.network/PeckShield-Audit-Report-M-Tokens.pdf).
