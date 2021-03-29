@@ -1,0 +1,30 @@
+{
+    "name":"MTokens",
+    "timestamp":"2020-3-16T12:00:15+00:00",
+    "keywords":[
+        "coinmarketcap",
+        "defi"
+    ],
+    "version":{
+        "major":1,
+        "minor":1,
+        "patch":0
+    },
+    "tokens":[
+        {
+            "chainId":1,
+            "address":"0xcfc013b416be0bd4b3bede35659423b796f8dcf0",
+            "symbol":"MBTC",
+            "name":"Matrix BTC Token",
+            "decimals":8
+        },
+        {
+            "chainId":1,
+            "address":"0xdc5c9e35a11bbf8d5bb102dc4b9d9eb91ab90515",
+            "symbol":"MBCH",
+            "name":"Matrix BCH Token",
+            "decimals":8
+        }
+    ]
+}
+
