@@ -16,14 +16,16 @@
             "address":"0xcfc013b416be0bd4b3bede35659423b796f8dcf0",
             "symbol":"MBTC",
             "name":"Matrix BTC Token",
-            "decimals":8
+            "decimals":8,
+"logoURI":"https://www.mtokens.network/MBTC.png"
         },
         {
             "chainId":1,
             "address":"0xdc5c9e35a11bbf8d5bb102dc4b9d9eb91ab90515",
             "symbol":"MBCH",
             "name":"Matrix BCH Token",
-            "decimals":8
+            "decimals":8,
+"logoURI":"https://www.mtokens.network/MBCH.png"
         }
     ]
 }
