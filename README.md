@@ -1,6 +1,6 @@
 # Addresses and Audit Report
 
-## Multi-signature Wallet
+## Wallet
 [0xd78d042a7e46d5F31b73cFd27d4f8570BD1D8013](https://cn.etherscan.com/address/0xd78d042a7e46d5F31b73cFd27d4f8570BD1D8013)
 
 ## Smart Contracts 
