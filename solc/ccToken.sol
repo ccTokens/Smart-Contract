@@ -10,7 +10,7 @@ import "BurnableToken.sol";
 import "Claimable.sol";
 import "CanReclaimToken.sol";
 
-/// @title MToken
+/// @title ccToken
 contract ccToken is NamedERC20, Claimable, MintableERC20, BurnableToken, CanReclaimToken {
     using SafeMath for uint256;
 
