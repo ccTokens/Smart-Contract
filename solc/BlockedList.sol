@@ -3,7 +3,7 @@ pragma experimental SMTChecker;
 
 //SPDX-License-Identifier: MIT
 import "OwnableIf.sol";
-import "MTokenControllerIf.sol";
+import "ccTokenControllerIf.sol";
 /// @title BlockedList - Maintian the BlockedList, only the owner can add or remove BlockedList addresses.
 abstract contract BlockedList is OwnableIf, ERC20ControllerViewIf {
     mapping(address => bool) public blockedList;

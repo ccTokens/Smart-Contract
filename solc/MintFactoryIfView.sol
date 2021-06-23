@@ -4,11 +4,11 @@ pragma experimental SMTChecker;
 
 //pragma experimental ABIEncoderV2;
 import "Ownable.sol";
-import "MTokenControllerIf.sol";
+import "ccTokenControllerIf.sol";
 
 /// @title MintFactoryIfView
 abstract contract MintFactoryIfView {
-    MTokenControllerIf public controller;
+    ccTokenControllerIf public controller;
 
     mapping(address => string) public custodianBtcAddressForMerchant;
 

@@ -12,11 +12,11 @@ abstract contract ERC20ControllerViewIf {
     function paused() virtual public view returns (bool);
 }
 
-/// @title MTokenControllerIf
-abstract contract MTokenControllerIf is MemberMgrIf, ERC20ControllerViewIf {
+/// @title ccTokenControllerIf
+abstract contract ccTokenControllerIf is MemberMgrIf, ERC20ControllerViewIf {
     function mint(address to, uint amount) virtual external returns (bool);
 
     function burn(uint value) virtual external returns (bool);
 
-    function getMToken() virtual external returns (ERC20If);
+    function getToken() virtual external returns (ERC20If);
 }

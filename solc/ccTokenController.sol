@@ -3,21 +3,21 @@ pragma experimental SMTChecker;
 
 //SPDX-License-Identifier: MIT
 import "Claimable.sol";
-import "MToken.sol";
+import "ccToken.sol";
 import "BlockedList.sol";
-import "MTokenControllerIf.sol";
+import "ccTokenControllerIf.sol";
 import "MemberMgrIf.sol";
 import "MintFactory.sol";
 import "CanReclaimToken.sol";
 
-/// @title MTokenController
-contract MTokenController is MTokenControllerIf, Claimable, BlockedList, CanReclaimToken {
-    MToken public mtoken;
+/// @title ccTokenController
+contract ccTokenController is ccTokenControllerIf, Claimable, BlockedList, CanReclaimToken {
+    ccToken public token;
     MemberMgrIf public members;
     address public factory;
 
-    function getMToken() view override external returns (ERC20If){
-        return mtoken;
+    function getToken() view override external returns (ERC20If){
+        return token;
     }
 
     function requireCustodian(address _who) override public view {
@@ -50,8 +50,8 @@ contract MTokenController is MTokenControllerIf, Claimable, BlockedList, CanRecl
 
     bool public _paused = false;
 
-    constructor(MToken _mtoken){
-        mtoken = _mtoken;
+    constructor(ccToken _token){
+        token = _token;
         factory = (address)(new MintFactory());
     }
 
@@ -69,8 +69,8 @@ contract MTokenController is MTokenControllerIf, Claimable, BlockedList, CanRecl
     }
 
     function claimOwnershipOfMToken() public onlyOwner {
-        mtoken.claimOwnership();
-        mtoken.setController((ERC20ControllerViewIf)(this));
+        token.claimOwnership();
+        token.setController((ERC20ControllerViewIf)(this));
     }
 
     function paused() override public view returns (bool){
@@ -86,18 +86,18 @@ contract MTokenController is MTokenControllerIf, Claimable, BlockedList, CanRecl
     function mint(address to, uint amount) override external onlyFactory returns (bool) {
         require(to != address(0), "invalid to address");
         require(!paused(), "paused.");
-        require(mtoken.mint(to, amount), "minting failed.");
+        require(token.mint(to, amount), "minting failed.");
         return true;
     }
 
     function burn(uint value) override external onlyFactory returns (bool) {
         require(!paused(), "token is paused.");
-        require(mtoken.burn(value));
+        require(token.burn(value));
         return true;
     }
 
     function burnBlocked(address addrBlocked, uint256 amount) public onlyOwner returns (bool){
-        require(mtoken.burnBlocked(addrBlocked,amount), "burnBlocked failed");
+        require(token.burnBlocked(addrBlocked,amount), "burnBlocked failed");
         return true;
     }
 

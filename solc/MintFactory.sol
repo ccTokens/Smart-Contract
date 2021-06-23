@@ -4,7 +4,7 @@ pragma experimental SMTChecker;
 
 //pragma experimental ABIEncoderV2;
 import "Ownable.sol";
-import "MTokenControllerIf.sol";
+import "ccTokenControllerIf.sol";
 import "MintFactoryIfView.sol";
 import "CanReclaimToken.sol";
 
@@ -96,7 +96,7 @@ contract MintFactory is Ownable, MintFactoryIfView, CanReclaimToken {
     }
 
     constructor() {
-        controller = (MTokenControllerIf)(owner);
+        controller = (ccTokenControllerIf)(owner);
 
         Request memory request = Request({
             requester : (address)(0),
@@ -359,7 +359,7 @@ contract MintFactory is Ownable, MintFactoryIfView, CanReclaimToken {
             btcTxId : "",
             seq : seq,
             requestBlockNo : blockNo,
-            confirmedBlockNo : 0, //由确认阶段回填
+            confirmedBlockNo : 0,
             status : RequestStatus.PENDING
             });
 
@@ -367,7 +367,7 @@ contract MintFactory is Ownable, MintFactoryIfView, CanReclaimToken {
         burnRequestSeqMap[requestHash] = seq;
         burnRequests.push(request);
 
-        require(controller.getMToken().transferFrom(msg.sender, (address)(controller), amount), "trasnfer tokens to burn failed");
+        require(controller.getToken().transferFrom(msg.sender, (address)(controller), amount), "trasnfer tokens to burn failed");
         require(controller.burn(amount), "burn failed");
 
         emit Burned(seq, msg.sender, amount, btcDepositAddress, blockNo, requestHash);

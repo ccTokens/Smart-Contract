@@ -3,7 +3,7 @@ pragma solidity ^0.7.0;
 pragma experimental SMTChecker;
 
 
-import "MTokenControllerIf.sol";
+import "ccTokenControllerIf.sol";
 import "NamedERC20.sol";
 import "MintableERC20.sol";
 import "BurnableToken.sol";
@@ -11,7 +11,7 @@ import "Claimable.sol";
 import "CanReclaimToken.sol";
 
 /// @title MToken
-contract MToken is NamedERC20, Claimable, MintableERC20, BurnableToken, CanReclaimToken {
+contract ccToken is NamedERC20, Claimable, MintableERC20, BurnableToken, CanReclaimToken {
     using SafeMath for uint256;
 
     ERC20ControllerViewIf public erc20Controller;
