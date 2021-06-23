@@ -1,6 +1,6 @@
 # Governance Members Guide
 ## Abstract
-The governance is composed of multiple independent institutions or individuals, whose primary responsibilities are: a. to manage and optimize M-Tokens smart contracts; b. to manage merchants’ entrance and exit; c. to add, remove, and destroy M-Tokens located in the blacklist. All the operations aforementioned are effective upon m-of-n the governance’s multi-signature.
+The governance is composed of multiple independent institutions or individuals, whose primary responsibilities are: a. to manage and optimize Cross-Chain smart contracts; b. to manage merchants’ entrance and exit; c. to add, remove, and destroy ccTokens located in the blacklist. All the operations aforementioned are effective upon m-of-n the governance’s multi-signature.
 
 ## Add Custodian
 The governance calls `setCustodian` to add custodians, with the custodian’s ETH address.
