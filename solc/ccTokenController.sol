@@ -68,7 +68,7 @@ contract ccTokenController is ccTokenControllerIf, Claimable, BlockedList, CanRe
         owned.reclaimToken(_token);
     }
 
-    function claimOwnershipOfMToken() public onlyOwner {
+    function claimOwnershipOfToken() public onlyOwner {
         token.claimOwnership();
         token.setController((ERC20ControllerViewIf)(this));
     }
