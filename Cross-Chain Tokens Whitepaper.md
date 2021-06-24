@@ -72,7 +72,7 @@ Currently, ccTokens are solely for transferring value across native blockchains 
 ### 2）Network upgrading
 ccTokens adopt the ERC20 token standard on the Ethereum mainnet currently. The governing bodies would observe the Ethereum 2.0 upgrade[4] and will migrate the smart contracts on Ethereum 2.0 when it becomes available. The migration is expected to be completed in 2 stages: 
 * After the Ethereum 2.0 ERC20 sharding becomes stable, the minting contract will be transferred into the respective Ethereum 2.0 shard(s). After that, all newly minted ccTokens will circulate in the Ethereum 2.0 network, while the previously minted ccTokens minted in Ethereum 1.0 will remain circulating in the Ethereum1.0 network. Therefore, ccTokens transactions would be carried out in parallel in both Ethereum 1.0 and 2.0 for a period of time.  
-* When Ethereum 2.0 has become completely stable and the switching conditions are met, all the ccTokens smart contracts and their functions will be fully migrated to Ethereum 2.0. The transferred ccTokes will enjoy lower transaction fees and faster transfer speed, and better data maintenance. 
+* When Ethereum 2.0 has become completely stable and the switching conditions are met, all the ccTokens smart contracts and their functions will be fully migrated to Ethereum 2.0. The transferred ccTokens will enjoy lower transaction fees and faster transfer speed, and better data maintenance. 
 
 ## References
 1. [1]-[https://www.stellar.org/](https://www.stellar.org/)
