@@ -5,22 +5,22 @@
 
 ## Smart Contracts 
 ### ccBTC
-**ccBTC:** [0xcfc013b416be0bd4b3bede35659423b796f8dcf0](https://etherscan.io/address/0xcfc013b416be0bd4b3bede35659423b796f8dcf0#code)
+**ccBTC:** [0xef206FEfE1c7506A8Aa2CB39597AE3263204416D](https://etherscan.io/address/0xef206fefe1c7506a8aa2cb39597ae3263204416d#code)
 
-**ccTokenController:** [0x73dC27C71ECf110CB8F7Bc12610499F3611e5d72](https://etherscan.io/address/0x73dc27c71ecf110cb8f7bc12610499f3611e5d72#code)
+**ccTokenController:** [0x613Dee9C13F0cbA2CaA758f415bF934D704A08e8](https://etherscan.io/address/0x613dee9c13f0cba2caa758f415bf934d704a08e8#code)
 
-**MintFactory:** [0x4Bb471fd0aeA88751fbEF07dC414cF4E1d0Cd673](https://etherscan.io/address/0x4bb471fd0aea88751fbef07dc414cf4e1d0cd673#code)
+**MintFactory:** [0x161154862465ba4A5e1ebE452f7b4f3a91506679](https://etherscan.io/address/0x161154862465ba4A5e1ebE452f7b4f3a91506679#code)
 
-**MemberMgr:** [0xd922698f9B4fe36370E6d28f0C4783A308b40B44](https://etherscan.io/address/0xd922698f9b4fe36370e6d28f0c4783a308b40b44)
+**MemberMgr:** [0x706a779E29B9e9128c5CEfc68140a4310dDbeAEB](https://etherscan.io/address/0x706a779e29b9e9128c5cefc68140a4310ddbeaeb#code)
 
 ### ccBCH
-**ccBCH:** [0xdc5c9e35a11bbf8d5bb102dc4b9d9eb91ab90515](https://etherscan.io/address/0xdc5c9e35a11bbf8d5bb102dc4b9d9eb91ab90515#code)
+**ccBCH:** [0xdb792b1d8869a7cfc34916d6c845ff05a7c9b789](https://etherscan.io/address/0xdb792b1d8869a7cfc34916d6c845ff05a7c9b789#code)
 
-**ccTokenController:** [0x39b03d30759fc1f3b8136b4dda9a690e19c396e0](https://etherscan.io/address/0x39b03d30759fc1f3b8136b4dda9a690e19c396e0#code)
+**ccTokenController:** [0x120066c84F7c1DD1B94A4F78424F68532C5F7b56](https://etherscan.io/address/0x120066c84f7c1dd1b94a4f78424f68532c5f7b56#code)
 
-**MintFactory:** [0xce8b64fb0434F613425D0C69AC9dae81c8Ff871E](https://etherscan.io/address/0xce8b64fb0434F613425D0C69AC9dae81c8Ff871E#code)
+**MintFactory:** [0x9C5aCfED1892ae1430353b76AE62f90846E74827](https://etherscan.io/address/0x9c5acfed1892ae1430353b76ae62f90846e74827#code)
 
-**MemberMgr:** [0x4571b86fdf79aaac25bb2984ee17888eef740c96](https://etherscan.io/address/0x4571b86fdf79aaac25bb2984ee17888eef740c96#code)
+**MemberMgr:** [0x46444c63B09c64899c17a95ccFf22A2D49e00554](https://etherscan.io/address/0x46444c63b09c64899c17a95ccff22a2d49e00554#code)
 
 ## Custodian and the Corresponding ETH Address
 [Cactus Custody](https://www.mycactus.com)         
