@@ -1,0 +1,34 @@
+{
+    "name":"ccTokens-KOV",
+"logoURI":"https://www.crosschain.network/ccTokensLogo.png",
+    "timestamp":"2020-03-16T12:00:15+00:00",
+    "keywords":[
+        "Stablecoin",
+"Wrapped Tokens",
+        "defi"
+    ],
+    "version":{
+        "major":1,
+        "minor":1,
+        "patch":0
+    },
+    "tokens":[
+        {
+            "chainId":1,
+            "address":"0x238C0e7CA7D3f25D28A326079507587DdB67056A",
+            "symbol":"ccBTC",
+            "name":"Cross-Chain BTC",
+            "decimals":8,
+"logoURI":"https://www.crosschain.network/ccBCH.png"
+        },
+        {
+            "chainId":1,
+            "address":"0x7a93b72890be180f2d56d87dd7d2f7e49a628a9c",
+            "symbol":"ccBCH",
+            "name":"Cross-Chain BCH",
+            "decimals":8,
+"logoURI":"https://www.crosschain.network/ccBTC.png"
+        }
+    ]
+}
+
