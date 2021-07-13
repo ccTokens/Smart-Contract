@@ -19,7 +19,7 @@
             "symbol":"ccBTC",
             "name":"Cross-Chain BTC",
             "decimals":8,
-"logoURI":"https://www.crosschain.network/ccBCH.png"
+"logoURI":"https://www.crosschain.network/ccBTC.png"
         },
         {
             "chainId":1,
@@ -27,7 +27,7 @@
             "symbol":"ccBCH",
             "name":"Cross-Chain BCH",
             "decimals":8,
-"logoURI":"https://www.crosschain.network/ccBTC.png"
+"logoURI":"https://www.crosschain.network/ccBCH.png"
         }
     ]
 }
