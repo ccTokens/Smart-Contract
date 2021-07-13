@@ -1,0 +1,34 @@
+{
+    "name":"ccTokens",
+"logoURI":"https://www.crosschain.network/ccTokensLogo.png",
+    "timestamp":"2020-03-16T12:00:15+00:00",
+    "keywords":[
+        "Stablecoin",
+"Wrapped Tokens",
+        "defi"
+    ],
+    "version":{
+        "major":1,
+        "minor":1,
+        "patch":0
+    },
+    "tokens":[
+        {
+            "chainId":1,
+            "address":"0xef206FEfE1c7506A8Aa2CB39597AE3263204416D",
+            "symbol":"ccBTC",
+            "name":"Cross-Chain BTC",
+            "decimals":8,
+"logoURI":"https://www.crosschain.network/ccBCH.png"
+        },
+        {
+            "chainId":1,
+            "address":"0xdb792b1d8869a7cfc34916d6c845ff05a7c9b789",
+            "symbol":"ccBCH",
+            "name":"Cross-Chain BCH",
+            "decimals":8,
+"logoURI":"https://www.crosschain.network/ccBTC.png"
+        }
+    ]
+}
+
