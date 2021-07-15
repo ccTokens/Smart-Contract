@@ -14,7 +14,7 @@
     },
     "tokens":[
         {
-            "chainId":1,
+            "chainId":42,
             "address":"0x238C0e7CA7D3f25D28A326079507587DdB67056A",
             "symbol":"ccBTC",
             "name":"Cross-Chain BTC",
@@ -22,7 +22,7 @@
 "logoURI":"https://www.crosschain.network/ccBTC.png"
         },
         {
-            "chainId":1,
+            "chainId":42,
             "address":"0x7a93b72890be180f2d56d87dd7d2f7e49a628a9c",
             "symbol":"ccBCH",
             "name":"Cross-Chain BCH",
