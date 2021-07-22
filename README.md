@@ -31,4 +31,4 @@ Address: [0x691f0e12ad868666fa072616c49289467e4be272](https://etherscan.io/addre
 Address: [0x9d525ec6d091e16fa976e28e02d4040e920b8a29](https://etherscan.io/address/0x9d525ec6d091e16fa976e28e02d4040e920b8a29) 
 
 ## Audit Report
-Cross-Chain Tokens smart contract codes have been audited by a third-party, and available [here](https://www.mtokens.network/PeckShield-Audit-Report-M-Tokens.pdf).
+Cross-Chain Tokens smart contract codes have been audited by a third-party, and available [here](https://www.crosschain.network/PeckShield-Audit-Report-ccTokens-v1.0.pdf).
