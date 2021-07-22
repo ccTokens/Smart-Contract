@@ -1,7 +1,7 @@
 # Addresses and Audit Report
 
 ## Wallet
-[0x46A8BAB9B3A2ca42f06398d72cd99a87e7c5bAE1](https://etherscan.io/address/0x46a8bab9b3a2ca42f06398d72cd99a87e7c5bae1)
+[0x46A8BAB9B3A2ca42f06398d72cd99a87e7c5bAE1](https://etherscan.io/address/0x46A8BAB9B3A2ca42f06398d72cd99a87e7c5bAE1)
 
 ## Smart Contracts 
 ### ccBTC
