@@ -1,5 +1,5 @@
 ## Cross-Chain Tokens Whitepaper
-Convenient cross-chain transactions and more utility for your crypto
+Convenient cross-chain transactions and more utility for your crypto!
 
 ## 1. Abstract
 Cross-Chain Tokens(ccTokens) are pegged tokens backed 1:1 with blockchain assets like BTC. It enables the seamless integration of various crypto assets into the DeFi ecosystem. All ccTokens are fully backed and safeguarded by qualified third-party custodians or validators. Meanwhile, a multi-party confirmation mechanism is adopted for its crucial aspects: mining, burning and allowing on-chain verification. It provides cross-chain asset services that are both transparent and reliable. 
