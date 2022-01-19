@@ -1,21 +1,26 @@
 ## Cross-Chain Tokens Whitepaper
-Bring you cross-chain transaction convenience, transparency, and value!
+Convenient cross-chain transactions and more utility for your crypto
+
 ## 1. Abstract
-Cross-Chain Tokens (ccTokens) are the ERC20 tokens backed 1:1 with native assets like BTC. It enables the seamless integration of various crypto assets into the DeFi ecosystem. All ccTokens’ reserves are safeguarded by qualified third-party custodians. Meanwhile, a multi-signature mechanism is adopted for its crucial aspects: mining, burning, and allowing on-the-chain verification. Therefore, it provides cross-chain asset services that are both transparent and reliable.   
+Cross-Chain Tokens(ccTokens) are pegged tokens backed 1:1 with blockchain assets like BTC. It enables the seamless integration of various crypto assets into the DeFi ecosystem. All ccTokens are fully backed and safeguarded by qualified third-party custodians or validators. Meanwhile, a multi-party confirmation mechanism is adopted for its crucial aspects: mining, burning and allowing on-chain verification. It provides cross-chain asset services that are both transparent and reliable. 
 
 ## 2. Background
-The speedy development of Dapps, DEXes, DeFi, and other technology has prompted the prosperity of the Ethereum ecosystem. It has attracted a diverse group of digital asset holders to invest their assets into relevant projects, in a seamless manner. As Ethereum 2.0 progresses, it will provide improved applications and higher demand in its interoperability across multiple chains.
-* The tech behind the atomic swap of crypto assets among different chains is not convenient at the moment. The majority of digital asset holders have no choice but to trade their currencies into ETH or stablecoins, which results in high transaction fees that will ultimately impact the price stability. Because of this, there will be amplified risks during large market fluctuations.  
-* Different blockchains have different value propositions. Bitcoin is “Digital Gold”. Stellar is an open network for storing and moving money[1], and Ethereum is positioned as an operating system for many decentralized economies and applications[2]. Multiple chains and tokens will co-exist. However, with Ethereum gaining market share to be a global, permissionless platform for decentralized applications, it wouldn’t be surprising that more and more cross-chain assets will flow into the Ethereum network.
+The exponential growth of Dapps, DEXes, DeFi, GameFi, and other technology has prompted the prosperity of the blockchain ecosystem. It has attracted a diverse group of digital asset holders to invest their assets into relevant projects in a seamless manner. As various chains progress, it will provide improved applications and higher demand in its interoperability across multiple chains.
+* Different blockchains have different value propositions. Bitcoin is “Digital Gold”, Stellar is an open network for storing and moving money, and Ethereum is positioned as an operating system for many decentralized economies and applications. Multiple chains and tokens will co-exist. However, with Ethereum gaining market share, it wouldn’t be surprising that more and more cross-chain assets will flow into the Ethereum network.  
+* In Q4 of 2020, multiple EVM compatible chains went live, ushering in a new era of blockchain competition that attracted a large number of DeFi projects. More and more projects migrated to EVM compatible chains. Instead of Ethereum, projects can be tested at a low cost with fast confirmation. More cross-chain interoperability is inevitable for the future of DeFi. It ensures that different blockchains are not isolated.
 
-Therefore, a platform capable of bringing blockchain digital assets into Ethereum in a fast, convenient, and secure manner will become an essential infrastructure. Although wrapped token[3] and similar projects have met the aforementioned requirements, there is still room for improvement. As the assets under management of such wrapped assets increase, potential risks arise for a single provider or custodian. Due to this, various platforms will coexist, providing more wrapped asset varieties and choices to the institutional and retail users in the long run.  
+Therefore, a platform that can bring digital assets into multi-chain ecology in a fast, convenient, and secure manner will become an essential infrastructure.
 
-ccTokens strives to be one of the top infrastructures to provide digital asset holders with alternatives and security for financial businesses. 
-
+Although some wrapped tokens or bridge projects have met the aforementioned requirements to some extent, we have barely seen any projects that provide a cross-chain solution between non-EVM compatible chain and EVM compatible chain, as well as a solution between different EVM compatible chains. If users want to convert their assets in different chains, they will need to go through multiple cross-chain projects to do so. There is no doubt that ccTokens will perfectly solve the problem.
+ 
 ## 3. ccTokens
-ccTokens are backed by a 1:1 crypto assets reserve of the native token, preventing misappropriations or losses. 
+ccTokens' vision is to become the bridge of each asset on any blockchain. Our unique advantages will let users participate in DeFi projects on different blockchain networks. ccTokens are backed by a 1:1 crypto assets reserve of the native token, preventing misappropriations or losses. 
 
-In terms of technical aspects, smart contracts and hash mapping are adopted. The reserve deposit addresses, outstanding balances, and transaction records are made 100% public and traceable to enable exact cross-chain mapping. In terms of governance, checks and balances are achieved through a multi-institutional framework, roles/rights segregation, and decentralization. This will facilitate the prevention of malice committed by any individual or entity. Moreover, the blacklisting mechanism lays a foundation for ongoing governance and regulatory compliance.
+Since each blockchain has different value propositions and features, ccTokens has designed a flexible solution and smart contracts for different types of blockchain cross-chain. The solution is designed in strict accordance with the following two principles:
+
+In terms of technical aspects, smart contracts and hash mapping are adopted. The reserve deposit addresses, outstanding balances, and transaction records are made 100% public. The reserve addresses are disclosed on the [Cross-Chain website](https://www.crosschain.network/). Anyone can check the balance of reserve addresses on-chain in real-time.  
+
+In terms of governance aspects, checks and balances are achieved through a multi-institutional framework, roles/rights segregation, and decentralization. This will facilitate the prevention of malice committed by any individual or entity. Moreover, the blacklisting mechanism lays a foundation for ongoing governance and regulatory compliance.
 
 ## 4. Governance
 ### 1）Segregation of roles
