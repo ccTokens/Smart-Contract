@@ -57,5 +57,5 @@ The blocklisting mechanism is implemented to meet the regulatory requirements. W
 ### 1) Adoption
 Currently, ccTokens are solely for transferring value across native blockchains assets. However, as blockchain adoption becomes prevalent and widely adopted, the ccTokens solution could allow tokenization of various off-chain assets: precious metals, intangible assets, securities, etc, given proper regulation in place. In these scenarios, traditional banks, community warehouses, brokerages could also act as custodians.
 
-### 2）Muti-networks Supported 
+### 2) Muti-networks Supported 
 Due to the congestion of the Ethereum network and the outrageous gas fees, the DeFi ecosystem has branched out into multiple networks. ccTokens will continue to pay attention to the development of these networks and support cross-chain assets other than Ethereum.  
