@@ -41,7 +41,7 @@ Cross-Chain Network is introducing the “Merchant” role and “Custodian” r
 * Are responsible for maintaining the blockchain address(es) for receiving the transferred reserves (native assets) when ccTokens get burned.
 * Are responsible for retails of ccTokens.
 
-**End users:** 
+**End Users:** 
 * Individuals or institutions intend to participate in Defi through ccTokens. The exchange between the end users’ native assets and ccTokens must be carried out by the merchants and is abided by the merchants’ business policies.
 
 ## 5. Governance Parties 
