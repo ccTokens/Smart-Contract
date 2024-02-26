@@ -1,5 +1,4 @@
 pragma solidity ^0.7.0;
-pragma experimental SMTChecker;
 
 //SPDX-License-Identifier: MIT
 /// @title MemberMgrIf

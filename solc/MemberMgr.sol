@@ -1,11 +1,9 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.7.0;
-pragma experimental SMTChecker;
 
-
-import "MemberMgrIf.sol";
-import "Claimable.sol";
-import "CanReclaimToken.sol";
+import "./MemberMgrIf.sol";
+import "./Claimable.sol";
+import "./CanReclaimToken.sol";
 
 /// @title MemberMgr - add, delete, suspend and resume merchant and it’s eth address; reset the custodian’s eth address.
 contract MemberMgr is Claimable, MemberMgrIf, CanReclaimToken {

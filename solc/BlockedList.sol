@@ -1,9 +1,8 @@
 pragma solidity ^0.7.0;
-pragma experimental SMTChecker;
 
 //SPDX-License-Identifier: MIT
-import "OwnableIf.sol";
-import "ccTokenControllerIf.sol";
+import "./OwnableIf.sol";
+import "./ccTokenControllerIf.sol";
 /// @title BlockedList - Maintian the BlockedList, only the owner can add or remove BlockedList addresses.
 abstract contract BlockedList is OwnableIf, ERC20ControllerViewIf {
     mapping(address => bool) public blockedList;

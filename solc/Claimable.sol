@@ -1,10 +1,8 @@
 //SPDX-License-Identifier: MIT
 
 pragma solidity ^0.7.0;
-pragma experimental SMTChecker;
 
-
-import "Ownable.sol";
+import "./Ownable.sol";
 
 // File: openzeppelin-solidity/contracts/ownership/Claimable.sol
 

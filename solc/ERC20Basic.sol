@@ -1,10 +1,8 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.7.0;
-pragma experimental SMTChecker;
 
-
-import "ERC20If.sol";
-import "SafeMathLib.sol";
+import "./ERC20If.sol";
+import "./SafeMathLib.sol";
 
 /// @title ERC20Basic
 contract ERC20Basic is ERC20If {

@@ -1,10 +1,8 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.7.0;
-pragma experimental SMTChecker;
 
-
-import "ERC20If.sol";
-import "OwnableIf.sol";
+import "./ERC20If.sol";
+import "./OwnableIf.sol";
 
 /// @title CanReclaimToken
 abstract contract CanReclaimToken is OwnableIf {

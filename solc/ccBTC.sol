@@ -1,8 +1,7 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.7.0;
-pragma experimental SMTChecker;
 
-import "ccToken.sol";
+import "./ccToken.sol";
 
 /// @title ccBTC
 contract ccBTC is ccToken {

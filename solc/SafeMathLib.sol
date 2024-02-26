@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: MIT
 
 pragma solidity ^0.7.0;
-pragma experimental SMTChecker;
 
 /**
  * @dev Wrappers over Solidity's arithmetic operations with added overflow

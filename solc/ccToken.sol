@@ -1,14 +1,12 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.7.0;
-pragma experimental SMTChecker;
 
-
-import "ccTokenControllerIf.sol";
-import "NamedERC20.sol";
-import "MintableERC20.sol";
-import "BurnableToken.sol";
-import "Claimable.sol";
-import "CanReclaimToken.sol";
+import "./ccTokenControllerIf.sol";
+import "./NamedERC20.sol";
+import "./MintableERC20.sol";
+import "./BurnableToken.sol";
+import "./Claimable.sol";
+import "./CanReclaimToken.sol";
 
 /// @title ccToken
 contract ccToken is NamedERC20, Claimable, MintableERC20, BurnableToken, CanReclaimToken {

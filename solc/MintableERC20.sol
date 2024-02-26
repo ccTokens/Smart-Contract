@@ -1,10 +1,8 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.7.0;
-pragma experimental SMTChecker;
 
-
-import "ERC20Basic.sol";
-import "OwnableIf.sol";
+import "./ERC20Basic.sol";
+import "./OwnableIf.sol";
 
 /// @title MintableERC20
 abstract contract MintableERC20 is ERC20Basic, OwnableIf {

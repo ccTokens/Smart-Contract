@@ -1,9 +1,8 @@
 pragma solidity ^0.7.0;
-pragma experimental SMTChecker;
 
 //SPDX-License-Identifier: MIT
 
-import "ERC20Basic.sol";
+import "./ERC20Basic.sol";
 
 /// @title BurnableToken
 contract BurnableToken is ERC20Basic {

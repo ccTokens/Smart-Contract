@@ -1,14 +1,13 @@
 pragma solidity ^0.7.0;
-pragma experimental SMTChecker;
 
 //SPDX-License-Identifier: MIT
-import "Claimable.sol";
-import "ccToken.sol";
-import "BlockedList.sol";
-import "ccTokenControllerIf.sol";
-import "MemberMgrIf.sol";
-import "MintFactory.sol";
-import "CanReclaimToken.sol";
+import "./Claimable.sol";
+import "./ccToken.sol";
+import "./BlockedList.sol";
+import "./ccTokenControllerIf.sol";
+import "./MemberMgrIf.sol";
+import "./MintFactory.sol";
+import "./CanReclaimToken.sol";
 
 /// @title ccTokenController
 contract ccTokenController is ccTokenControllerIf, Claimable, BlockedList, CanReclaimToken {

@@ -1,10 +1,9 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.7.0;
-pragma experimental SMTChecker;
 
 //pragma experimental ABIEncoderV2;
-import "Ownable.sol";
-import "ccTokenControllerIf.sol";
+import "./Ownable.sol";
+import "./ccTokenControllerIf.sol";
 
 /// @title MintFactoryIfView
 abstract contract MintFactoryIfView {
